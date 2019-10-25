@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CC2" parallel="methods" thread-count="2">
+
+	<listeners>
+		<listener class-name="com.cc2.reports.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="CC2">
+		<classes>
+			<class name="com.cc2.tests.HomePageTest"></class>
+			<class name="com.cc2.tests.SecondPageTest"></class>
+		</classes>
+	</test>
+</suite>
