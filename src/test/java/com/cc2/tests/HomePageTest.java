@@ -1,5 +1,6 @@
 package com.cc2.tests;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,6 +16,7 @@ import com.cc2.pages.HomePage;
 public class HomePageTest extends Base{
 	HomePage home;
 	FlightsPage flight;
+	Logger log =Logger.getLogger(HomePageTest.class);
 	
 	HomePageTest (){
 		super();
@@ -31,9 +33,11 @@ public class HomePageTest extends Base{
 	public void step1() throws InterruptedException {
 		
 		home.search();
+		log.info("Search flights");
 		home.selectFromDate();
 		home.date();
 		home.DepartureDate();
+		log.debug("Departure date is searched");
 		home.todate();
 		home.clickOnSearch();
 		flight.printDepartureFlightRecords();

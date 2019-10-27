@@ -1,0 +1,12 @@
+2019-10-28 10:48:32,359  INFO [main] HomePageTest:36 - Search flights
+2019-10-28 10:48:33,597 DEBUG [main] HomePageTest:40 - Departure date is searched
+2019-10-28 10:48:46,593 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_AU", UTF-8, parsed); will try to load it.
+2019-10-28 10:48:46,593 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_AU.ftl"): Not found
+2019-10-28 10:48:46,597 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-28 10:48:46,598 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-28 10:48:46,599 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_AU", UTF-8, parsed) from "jar:file:/C:/Users/apappinisserikoranku/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-28 10:48:46,995 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_AU", UTF-8, parsed); will try to load it.
+2019-10-28 10:48:46,996 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_AU.ftl"): Not found
+2019-10-28 10:48:46,996 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-28 10:48:46,996 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-28 10:48:46,997 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_AU", UTF-8, parsed) from "jar:file:/C:/Users/apappinisserikoranku/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-CC2">
-              <span class="suite-name border-failed">CC2</span>
+              <span class="suite-name border-passed">CC2</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-CC2">
-                    <span>C:\Users\apappinisserikoranku\Desktop\Planit Docs\eclipseworkspace2\CC2\test-output\old\testNGparallel.xml</span>
+                    <span>C:\Users\apappinisserikoranku\Desktop\Planit Docs\eclipseworkspace2\CC2\test-output\testNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,26 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-CC2" class="hide-methods failed suite-CC2"> (hide)</a> <!-- hide-methods failed suite-CC2 -->
-                      <a href="#" panel-name="suite-CC2" class="show-methods failed suite-CC2"> (show)</a> <!-- show-methods failed suite-CC2 -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CC2" class="hide-methods passed suite-CC2"> (hide)</a> <!-- hide-methods passed suite-CC2 -->
+                      <a href="#" panel-name="suite-CC2" class="show-methods passed suite-CC2"> (show)</a> <!-- show-methods passed suite-CC2 -->
                     </span>
-                    <div class="method-list-content failed suite-CC2">
+                    <div class="method-list-content passed suite-CC2">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-CC2" title="com.cc2.tests.HomePageTest" hash-for-method="step1">step1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CC2" title="com.cc2.tests.SecondPageTest" hash-for-method="verifyDetails">verifyDetails</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-CC2 -->
+                    </div> <!-- method-list-content passed suite-CC2 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CC2" class="panel CC2">
-          <div class="suite-CC2-class-failed">
+          <div class="suite-CC2-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.cc2.tests.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -133,79 +128,26 @@
                   <a name="step1">
                   </a> <!-- step1 -->
                   <span class="method-name">step1</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NSWSYDNLP224&apos;, ip: &apos;192.168.3.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\APAPPI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 24ac5d8dc9d8f7d4973a225a6b0dd811
-*** Element info: {Using=xpath, value=//label[@for=&apos;fromCity&apos;]//span[@class=&apos;lbl_input latoBold  appendBottom5&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.cc2.pages.HomePage.search(HomePage.java:74)
-	at com.cc2.tests.HomePageTest.step1(HomePageTest.java:33)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CC2-class-failed -->
-          <div class="suite-CC2-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.cc2.tests.SecondPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDetails">
-                  </a> <!-- verifyDetails -->
-                  <span class="method-name">verifyDetails</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.cc2.tests.SecondPageTest.verifyDetails(SecondPageTest.java:24)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 12 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CC2-class-failed -->
+          </div> <!-- suite-CC2-class-passed -->
         </div> <!-- panel CC2 -->
         <div panel-name="test-xml-CC2" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\apappinisserikoranku\Desktop\Planit Docs\eclipseworkspace2\CC2\test-output\old\testNGparallel.xml</span>
+            <span class="header-content">C:\Users\apappinisserikoranku\Desktop\Planit Docs\eclipseworkspace2\CC2\test-output\testNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;CC2&quot; parallel=&quot;methods&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;CC2&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.cc2.reports.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;CC2&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CC2&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.cc2.tests.HomePageTest&quot;/&gt;
-      &lt;class name=&quot;com.cc2.tests.SecondPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- CC2 --&gt;
 &lt;/suite&gt; &lt;!-- CC2 --&gt;
@@ -219,7 +161,7 @@ Session ID: 24ac5d8dc9d8f7d4973a225a6b0dd811
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">CC2 (2 classes)</span>
+                <span class="test-name">CC2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,20 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'step1')
 data.setCell(0, 2, 'com.cc2.tests.HomePageTest')
-data.setCell(0, 3, 7024);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyDetails')
-data.setCell(1, 2, 'com.cc2.tests.SecondPageTest')
-data.setCell(1, 3, 2480);
+data.setCell(0, 3, 13477);
 window.suiteTableData['CC2']= { tableData: data, tableDiv: 'times-div-CC2'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-CC2">
               </div> <!-- times-div-CC2 -->
             </div> <!-- times-div -->
@@ -289,43 +227,13 @@ return data;
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cc2.tests.SecondPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyDetails</span>
-                <span class="method-start">15400 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cc2.tests.HomePageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">step1</span>
-                <span class="method-start">16311 ms</span>
+                <span class="method-start">14998 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cc2.tests.SecondPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17885 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cc2.tests.HomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">23336 ms</span>
+                <span class="method-start">28479 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
